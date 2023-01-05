@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(231, 243, 177);
+}
+
+.center {
+    background-color: rgb(136, 197, 95);
+    width: auto;
+    height: auto;
+   
+    
+    margin: 2%;
+    /* padding: 10px; */
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.listItem {
+    list-style-type: none;
+}
+
+input[type='text'], button {
+    width: 55%;
+    height: max-content;
+    border-radius: 5px;
+    border: 2px solid rgb(15, 83, 92);
+    background-color: rgb(245, 238, 245);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+button {
+    width: 10%;
+    margin-left: 2px;
+}
+
+span {
+    /* background-color: rgb(146, 23, 146); */
+    display: inline;
+    align-items: center;
+    font: 40px;
+    position: relative;
+}
+
+li {
+    font-size: 30px;
+    display: inline;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.mainDiv {
+    text-align: left;
+}
